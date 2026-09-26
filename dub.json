@@ -5,5 +5,11 @@
 		"Yel0w"
 	],
 	"copyright": "Copyright © 2026, Yel0w",
-	"name": "ballistic"
+	"name": "ballistic",
+	
+    "dependencies": {
+        "dyaml": "~>0.10.2"  
+    }
 }
+
+
