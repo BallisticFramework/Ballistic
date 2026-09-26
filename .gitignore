@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ballistic
+ballistic.so
+ballistic.dylib
+ballistic.dll
+libballistic.a
+ballistic.a
+ballistic.lib
+ballistic-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
