@@ -4,15 +4,6 @@ void main()
 {
 	
 
-	string coolFUnc()
-	{
-
-		string message = "Hello world";
-
-		return message;
-
-
-	}
-	writeln(coolFUnc());
+//noting
 
 }

@@ -1,0 +1,5 @@
+
+page1:
+{
+ submit.onclick : src/app.d::handleSubmit2(); 
+}
