@@ -1,15 +1,12 @@
 {
 	"description": "Ballistic Framework toolchain",
-	"license": "GPL-3.0-only",
+	"dependencies": {
+		"dyaml": "~>0.10.0"
+	},
 	"authors": [
 		"Yel0w"
 	],
 	"copyright": "Copyright © 2026, Yel0w",
-	"name": "ballistic",
-	
-    "dependencies": {
-        "dyaml": "~>0.10.2"  
-    }
+	"license": "GPL-3.0-only",
+	"name": "ballistic"
 }
-
-
