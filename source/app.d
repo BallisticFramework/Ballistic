@@ -1,7 +1,7 @@
-import std.stdio;
+import std.file : read;
 import std.json;
 import std.process : executeShell;
-import std.file : read;
+import std.stdio;
 
 JSONValue dubJsonConfig;
 
@@ -42,9 +42,11 @@ void buildCommand()
 
 void runCommand()
 {
-    writeln("Running ", dubJsonConfig["name"].str, "...");
 
+
+    writeln("Running ", dubJsonConfig["name"].str, "...");
    writeln(executeShell("dub run")); 
+   executeShell(dubJsonConfig["name"].str);
 
 }
 void helpCommand()
@@ -52,3 +54,5 @@ void helpCommand()
 	   writeln("help");
    writeln("Usage: ballistic [build,run]");
 }
+
+
