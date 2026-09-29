@@ -46,7 +46,7 @@ void runCommand()
 
     writeln("Running ", dubJsonConfig["name"].str, "...");
    writeln(executeShell("dub run")); 
-   executeShell(dubJsonConfig["name"].str);
+
 
 }
 void helpCommand()

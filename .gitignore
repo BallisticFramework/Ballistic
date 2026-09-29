@@ -15,3 +15,4 @@ ballistic-test-*
 *.o
 *.obj
 *.lst
+/.idea/
