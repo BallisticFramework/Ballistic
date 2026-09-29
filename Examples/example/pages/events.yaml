@@ -1,0 +1,3 @@
+page1:
+  submit:
+    onclick: "app::handleSubmit2"

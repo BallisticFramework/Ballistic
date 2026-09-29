@@ -1,12 +1,21 @@
+
+import std : writeln;
 import std.file : read;
 import std.json;
 import std.process : executeShell;
-import std.stdio;
-
 JSONValue dubJsonConfig;
 
 void main(string[] args)
 {
+
+ArgsManager(args:args);
+
+}
+
+void ArgsManager(string[] args)
+{
+
+
     dubJsonConfig = parseJSON(cast(string) read("dub.json"));
 
     if (args.length <= 1)
@@ -32,12 +41,14 @@ void main(string[] args)
         default:
             writeln("Unknown command: ", args[1]);
     }
-}
 
+}
 void buildCommand()
 {
+
     writeln("Building ", dubJsonConfig["name"].str, "...");
     writeln(executeShell("dub build")) ;
+
 }
 
 void runCommand()

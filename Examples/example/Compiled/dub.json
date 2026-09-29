@@ -1,0 +1,16 @@
+{
+	"description": "BALISTIC TAMPLATE",
+	"license": "No thanks",
+	"authors": [
+		"Your name"
+	],
+	"copyright": "Copyright © year , yourname",
+	"name": "example",
+	
+    "dependencies": {
+        "glfw-d": "~>3.2",      
+        "derelict-gl3": "~>2.0"  
+    
+}
+	
+}
