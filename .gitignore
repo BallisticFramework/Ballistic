@@ -16,3 +16,4 @@ ballistic-test-*
 *.obj
 *.lst
 /.idea/
+Ballistic
